@@ -1,7 +1,8 @@
 <template>
     <div>
         <p>I hope this information is accurate. If not, I'll pay closer attention in class! haha</p>
-        <h5>Copyright 2022 - All Rights Reserved</h5>
+        <a href="https://v2.vuejs.org/" target="_blank">Vue.js Core Docs</a>
+        <p>Copyright 2022 - All Rights Reserved</p>
     </div>
 </template>
 
@@ -18,9 +19,9 @@ div {
     padding: 1em;
 }
 
-h5 {
-    font-style: italic;
-    font-size: 1.5em;
+a {
+    text-decoration: none;
+    color: black;
 }
 
 p {
