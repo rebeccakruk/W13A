@@ -8,14 +8,16 @@
 </template>
 
 <script>
-    export default {
-        name: "HeaderComponent"
-    }
+export default {
+    name: "HeaderComponent"
+}
 </script>
 
 <style scoped>
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 4pt;
+    border: 3px black solid;
+    background-color: floralwhite;
 }
 </style>
