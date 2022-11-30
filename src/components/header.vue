@@ -14,10 +14,20 @@ export default {
 </script>
 
 <style scoped>
+header {
+    background-color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 15vh;
+}
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 4pt;
-    border: 3px black solid;
-    background-color: floralwhite;
+    text-shadow: 1px 1px 2px grey, 0 0 1em lightgray, 0 0 0.2em royalblue;
+    padding-top: 0.8em;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
 }
 </style>

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img src="./assets/EvanYou.jpeg" alt="Evan You" />
+    <p>VueJS was founded in 2014 by Evan You, pictured above.</p>
     <HeaderComponent />
     <BodyComponent />
     <FooterComponent />
@@ -8,18 +9,19 @@
 </template>
 
 <script>
-import HeaderComponent from '@/components/HeaderComponent.vue'
-// import BodyComponent from '@/components/BodyComponent.vue'
-// import FooterComponent from '@/components/FooterComponent.vue'
+import HeaderComponent from '@/components/header.vue'
+import BodyComponent from '@/components/body.vue'
+import FooterComponent from '@/components/footer.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-    // BodyComponent,
-    // FooterComponent,
+    BodyComponent,
+    FooterComponent,
   }
 }
+
 </script>
 
 <style>
@@ -30,5 +32,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#app img {
+  height: 15vh;
 }
 </style>
